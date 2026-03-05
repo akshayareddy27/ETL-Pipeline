@@ -1,0 +1,9 @@
+{"timestamp":"2026-02-18T14:31:40.570175Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-18T14:31:40.581815Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline/dag_etl.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-18T14:31:44.303804Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/etl_pipeline/dag_etl.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2026-02-18T14:31:44.649825Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T14:31:44.652308Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-18T14:31:44.654671Z","level":"info","event":"Current task name:load_data","logger":"task.stdout"}
+{"timestamp":"2026-02-18T14:31:44.655657Z","level":"info","event":"Dag name:etl_kaggle_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-02-18T14:31:53.734019Z","level":"warning","event":"Columns (33,34,35) have mixed types. Specify dtype option on import or set low_memory=False.","category":"DtypeWarning","filename":"/opt/airflow/dags/etl_pipeline/dag_etl.py","lineno":71,"logger":"py.warnings"}
+{"timestamp":"2026-02-18T14:32:12.880057Z","level":"critical","event":"Process terminated by signal. Likely out of memory error (OOM). For more information, see https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#process-terminated-by-signal.","signal":-9,"signal_name":"SIGKILL","logger":"task"}

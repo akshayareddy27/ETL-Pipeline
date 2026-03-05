@@ -1,0 +1,20 @@
+{"timestamp":"2026-02-19T11:09:12.624972Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-19T11:09:12.635275Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline/dag_etl.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-19T11:09:13.025636Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/etl_pipeline/dag_etl.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2026-02-19T11:09:13.151415Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:13.152909Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:13.154445Z","level":"info","event":"Current task name:transform_data","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:13.155581Z","level":"info","event":"Dag name:etl_kaggle_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:13.183023Z","level":"info","event":"Reading file: ADANIPORTS.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:13.318598Z","level":"info","event":"Reading file: ASIANPAINT.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:13.448675Z","level":"info","event":"Reading file: AXISBANK.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:13.595884Z","level":"info","event":"Reading file: BAJAJ-AUTO.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:13.704420Z","level":"info","event":"Reading file: BAJAJFINSV.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:13.814772Z","level":"info","event":"Reading file: BAJFINANCE.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:13.916256Z","level":"info","event":"Reading file: BHARTIARTL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:13.533965Z","level":"info","event":"Reading file: BPCL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:13.665322Z","level":"info","event":"Reading file: BRITANNIA.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:11.714686Z","level":"info","event":"Reading file: CIPLA.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:11.911080Z","level":"info","event":"Reading file: cleaned_data.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T11:09:20.236674Z","level":"warning","event":"Columns (105,106,107) have mixed types. Specify dtype option on import or set low_memory=False.","category":"DtypeWarning","filename":"/opt/airflow/dags/etl_pipeline/dag_etl.py","lineno":44,"logger":"py.warnings"}
+{"timestamp":"2026-02-19T11:09:26.269561Z","level":"critical","event":"Process terminated by signal. Likely out of memory error (OOM). For more information, see https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#process-terminated-by-signal.","signal":-9,"signal_name":"SIGKILL","logger":"task"}

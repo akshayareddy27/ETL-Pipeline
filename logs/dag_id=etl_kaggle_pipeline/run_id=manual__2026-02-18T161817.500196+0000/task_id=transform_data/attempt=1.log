@@ -1,0 +1,68 @@
+{"timestamp":"2026-02-18T16:19:10.886540Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-18T16:19:10.892304Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline/dag_etl.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-18T16:19:11.310138Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/etl_pipeline/dag_etl.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2026-02-18T16:19:11.355719Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.356841Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.357572Z","level":"info","event":"Current task name:transform_data","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.358466Z","level":"info","event":"Dag name:etl_kaggle_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.366756Z","level":"info","event":"Reading file: ADANIPORTS.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.438134Z","level":"info","event":"Reading file: ASIANPAINT.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.487101Z","level":"info","event":"Reading file: AXISBANK.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.530153Z","level":"info","event":"Reading file: BAJAJ-AUTO.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.562082Z","level":"info","event":"Reading file: BAJAJFINSV.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.599038Z","level":"info","event":"Reading file: BAJFINANCE.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.648215Z","level":"info","event":"Reading file: BHARTIARTL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.686413Z","level":"info","event":"Reading file: BPCL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.727439Z","level":"info","event":"Reading file: BRITANNIA.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.768666Z","level":"info","event":"Reading file: CIPLA.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:11.810237Z","level":"info","event":"Reading file: cleaned_data.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:14.899983Z","level":"warning","event":"Columns (69,70,71) have mixed types. Specify dtype option on import or set low_memory=False.","category":"DtypeWarning","filename":"/opt/airflow/dags/etl_pipeline/dag_etl.py","lineno":44,"logger":"py.warnings"}
+{"timestamp":"2026-02-18T16:19:17.130552Z","level":"info","event":"Reading file: COALINDIA.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:17.213309Z","level":"info","event":"Reading file: DRREDDY.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:17.266694Z","level":"info","event":"Reading file: EICHERMOT.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:17.330660Z","level":"info","event":"Reading file: GAIL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:17.427996Z","level":"info","event":"Reading file: GRASIM.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:17.581943Z","level":"info","event":"Reading file: HCLTECH.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:17.665271Z","level":"info","event":"Reading file: HDFC.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:17.735697Z","level":"info","event":"Reading file: HDFCBANK.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:17.798991Z","level":"info","event":"Reading file: HEROMOTOCO.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:17.866612Z","level":"info","event":"Reading file: HINDALCO.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:17.924128Z","level":"info","event":"Reading file: HINDUNILVR.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:17.985174Z","level":"info","event":"Reading file: ICICIBANK.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:18.034064Z","level":"info","event":"Reading file: INDUSINDBK.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:18.084242Z","level":"info","event":"Reading file: INFRATEL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:18.096087Z","level":"info","event":"Reading file: INFY.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:18.142687Z","level":"info","event":"Reading file: IOC.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:18.185130Z","level":"info","event":"Reading file: ITC.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:18.230604Z","level":"info","event":"Reading file: JSWSTEEL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:18.271394Z","level":"info","event":"Reading file: KOTAKBANK.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:18.317832Z","level":"info","event":"Reading file: LT.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:18.357621Z","level":"info","event":"Reading file: MARUTI.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:18.394794Z","level":"info","event":"Reading file: MM.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:18.434654Z","level":"info","event":"Reading file: NESTLEIND.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:18.466482Z","level":"info","event":"Reading file: NIFTY50_all.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:19.939266Z","level":"info","event":"Reading file: NTPC.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:19.980444Z","level":"info","event":"Reading file: ONGC.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.020080Z","level":"info","event":"Reading file: POWERGRID.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.049854Z","level":"info","event":"Reading file: RELIANCE.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.092235Z","level":"info","event":"Reading file: SBIN.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.129685Z","level":"info","event":"Reading file: SHREECEM.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.164114Z","level":"info","event":"Reading file: stock_metadata.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.177504Z","level":"info","event":"Reading file: SUNPHARMA.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.213809Z","level":"info","event":"Reading file: TATAMOTORS.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.257149Z","level":"info","event":"Reading file: TATASTEEL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.308726Z","level":"info","event":"Reading file: TCS.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.349398Z","level":"info","event":"Reading file: TECHM.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.385456Z","level":"info","event":"Reading file: TITAN.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.421626Z","level":"info","event":"Reading file: ULTRACEMCO.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.456733Z","level":"info","event":"Reading file: UPL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.491591Z","level":"info","event":"Reading file: VEDL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.530508Z","level":"info","event":"Reading file: WIPRO.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.407027Z","level":"info","event":"Reading file: ZEEL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:20.470620Z","level":"warning","event":"The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.","category":"FutureWarning","filename":"/opt/airflow/dags/etl_pipeline/dag_etl.py","lineno":51,"logger":"py.warnings"}
+{"timestamp":"2026-02-18T16:19:58.854125Z","level":"info","event":"Transformation complete.","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:58.888104Z","level":"info","event":"Done. Returned value was: Transformation complete","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-18T16:19:58.889160Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019c718b-959c-78eb-af35-c8c19a1c7c39'), task_id='transform_data', dag_id='etl_kaggle_pipeline', run_id='manual__2026-02-18T16:18:17.500196+00:00', try_number=1, dag_version_id=UUID('019c7129-e791-7406-9a2b-97a85ad05026'), map_index=-1, hostname='c6cecfed3fcc', context_carrier={}, task=<Task(PythonOperator): transform_data>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 2, 18, 16, 19, 9, 920979, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1522}
+{"timestamp":"2026-02-18T16:19:58.979553Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:58.980500Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-18T16:19:58.981217Z","level":"info","event":"Task operator:<Task(PythonOperator): transform_data>","logger":"task.stdout"}

@@ -1,0 +1,17 @@
+{"timestamp":"2026-02-19T12:41:42.385549Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-19T12:41:42.388335Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline/dag_etl.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-19T12:41:43.553222Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:43.553894Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:43.671463Z","level":"info","event":"Current task name:transform_data","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:43.672563Z","level":"info","event":"Dag name:etl_kaggle_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:43.673509Z","level":"info","event":"Processing file: ADANIPORTS.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:43.743623Z","level":"info","event":"Processing file: ASIANPAINT.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:43.888180Z","level":"info","event":"Processing file: AXISBANK.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:44.203283Z","level":"info","event":"Processing file: BAJAJ-AUTO.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:44.314627Z","level":"info","event":"Processing file: BAJAJFINSV.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:44.413398Z","level":"info","event":"Processing file: BAJFINANCE.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:44.569047Z","level":"info","event":"Processing file: BHARTIARTL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:44.748058Z","level":"info","event":"Processing file: BPCL.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:44.865317Z","level":"info","event":"Processing file: BRITANNIA.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:44.975590Z","level":"info","event":"Processing file: CIPLA.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T12:41:45.130006Z","level":"info","event":"Processing file: cleaned_data.csv","logger":"task.stdout"}
