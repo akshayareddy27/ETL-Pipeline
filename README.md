@@ -315,5 +315,5 @@ This milestone successfully delivered:
 - Cleaned financial dataset
 - Extracted market insights
 - Structured database storage
-- Workflow orchestration using Airflow
+- Workflow orchestration using Apache Airflow
 
